@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import Footer from "./component/Footer";
 import HeroSection from "./component/HeroSection";
@@ -7,6 +8,7 @@ import SectionDivider from "./component/SectionDivider";
 import SectionDivider2 from "./component/SectionDivider2";
 
 function App() {
+
   return (
     <div>
       <HeroSection />
@@ -15,6 +17,7 @@ function App() {
       <SectionDivider2 />
       <LastSection />
       <Footer />
+    
     </div>
   );
 }

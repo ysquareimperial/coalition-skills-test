@@ -1,7 +1,17 @@
-import React from "react";
-import { Col, Row } from "reactstrap";
+import React, { useEffect, useState } from "react";
+import { Col, Modal, Row } from "reactstrap";
 import logo from "../assets/images/Logo-min.png";
 function HeroSection() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    console.log("fasfas");
+    setIsOpen(true);
+
+    return () => {
+      setIsOpen(false);
+    };
+  }, []);
   return (
     <div className="hero_">
       <Row className="m-0">
@@ -22,6 +32,34 @@ function HeroSection() {
         </Col>
         <Col md={2}></Col>
       </Row>
+      {isOpen && (
+        <Modal isOpen={isOpen}>
+          <div className="p-4">
+            <p>I built the single-page site using React coupled with Vite.</p>
+            <p>
+              The source code is available on my{" "}
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href=" https://github.com/ysquareimperial/coalition-skills-test"
+              >
+                <b>Github profile</b>
+              </a>{" "}
+              profile.
+            </p>
+            <p>
+              Access the site through this{" "}
+              <a rel="noreferrer" target="_blank" href="">
+                <b>link</b>
+              </a>
+            </p>
+
+            <button className="btn btn-light">
+              <b>Close</b>
+            </button>
+          </div>
+        </Modal>
+      )}
     </div>
   );
 }
