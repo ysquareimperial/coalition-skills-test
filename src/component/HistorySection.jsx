@@ -4,7 +4,7 @@ import CarouselComp from "./CarouselComp";
 function HistorySection() {
   return (
     <div className="history_">
-      <Row className="m-0">
+      <Row className="m-0" id="history">
         <Col md={2}></Col>
         <Col md={8} className="p-3 carousel-wrapper">
           <div>

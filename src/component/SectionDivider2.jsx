@@ -3,7 +3,7 @@ import { Col, Row } from "reactstrap";
 
 function SectionDivider2() {
   return (
-    <Row className="m-0 climb_">
+    <Row className="m-0 climb_" id="team">
       <Col md={2}></Col>
       <Col
         md={8}

@@ -12,8 +12,12 @@ function SectionDivider() {
       >
         <img src={textLogo} alt="" className="text_logo" />
         <div className="d-flex text-white gap-4 tabs">
-          <a className="sec_item">01. HISTORY</a>
-          <a className="sec_item">02. TEAM</a>
+          <a href="#history" className="sec_item">
+            01. HISTORY
+          </a>
+          <a href="#team" className="sec_item">
+            02. TEAM
+          </a>
         </div>
       </Col>
 

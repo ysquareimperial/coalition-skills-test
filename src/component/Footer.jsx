@@ -13,7 +13,9 @@ function Footer() {
         >
           <img src={footerLogo} alt="footer_logo" className="footer_logo" />
 
-          <p className="copyright_text m-0">COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+          <p className="copyright_text m-0">
+            COPYRIGHT 2016. ALL RIGHTS RESERVED.
+          </p>
         </Col>
         <Col md={2}></Col>
       </Row>
