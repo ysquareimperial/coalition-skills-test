@@ -47,13 +47,6 @@ function HeroSection() {
               </a>{" "}
               profile.
             </p>
-            <p>
-              Access the site through this{" "}
-              <a rel="noreferrer" target="_blank" href="">
-                <b>link</b>
-              </a>
-            </p>
-
             <button className="btn btn-light" onClick={() => setIsOpen(false)}>
               <b>Close</b>
             </button>
