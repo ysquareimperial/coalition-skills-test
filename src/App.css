@@ -233,4 +233,11 @@ body {
     left: 240px !important;
     font-family: "Oswald";
   }
+  .footer_content {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .footer_logo{
+    margin-bottom: 20px;
+  }
 }

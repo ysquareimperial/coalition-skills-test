@@ -9,7 +9,7 @@ function Footer() {
         <Col md={2}></Col>
         <Col
           md={8}
-          className="d-flex align-items-center justify-content-between p-3"
+          className="d-flex align-items-center justify-content-between p-3 footer_content"
         >
           <img src={footerLogo} alt="footer_logo" className="footer_logo" />
 
