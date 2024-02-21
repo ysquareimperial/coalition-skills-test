@@ -54,7 +54,7 @@ function HeroSection() {
               </a>
             </p>
 
-            <button className="btn btn-light">
+            <button className="btn btn-light" onClick={() => setIsOpen(false)}>
               <b>Close</b>
             </button>
           </div>
