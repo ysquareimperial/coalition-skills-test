@@ -7,12 +7,15 @@ function SectionDivider2() {
       <Col md={2}></Col>
       <Col
         md={8}
-        className="d-flex align-items-center justify-content-between m-3"
+        className="d-flex align-items-center justify-content-between p-3"
       >
-        <div className="d-flex align-items-center" style={{ gap: 110 }}>
+        <div
+          className="d-flex align-items-center section_2_text"
+          style={{ gap: 110 }}
+        >
           <div className="text_wrapper">
             <p className="num_one">02.</p>
-            <p className="history_h climb__">CLIMB</p>
+            <p className=" climb__">CLIMB</p>
           </div>
           <p className="climb_text">
             Cras scelerisque id quam sed dignissim Pellentesque urna nunc,

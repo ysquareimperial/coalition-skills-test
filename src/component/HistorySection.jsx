@@ -6,7 +6,7 @@ function HistorySection() {
     <div className="history_">
       <Row className="m-0">
         <Col md={2}></Col>
-        <Col md={8} className="m-3 carousel-wrapper">
+        <Col md={8} className="p-3 carousel-wrapper">
           <div>
             <div className="text_wrapper">
               <p className="num_one">01.</p>
@@ -21,12 +21,11 @@ function HistorySection() {
               suscipit dignissim tortor nec congue.
             </p>
           </div>
-
         </Col>
         <Col md={2}></Col>
-          <div className="carousel_">
-            <CarouselComp />
-          </div>
+        <div className="carousel_">
+          <CarouselComp />
+        </div>
       </Row>
     </div>
   );

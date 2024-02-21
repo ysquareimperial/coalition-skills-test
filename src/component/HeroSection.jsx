@@ -8,11 +8,11 @@ function HeroSection() {
         <Col md={2}></Col>
         <Col
           md={8}
-          className="d-flex align-items-center justify-content-between m-3"
+          className="d-flex align-items-center justify-content-between p-3 nav_"
         >
           <img src={logo} alt="" className="logo" />
-          <div className="d-flex text-white gap-4">
-            <a className="nav_item">01. HISTORY</a>
+          <div className="d-flex text-white gap-4 tabs">
+            <a className="nav_item nav_item_1">01. HISTORY</a>
             <a className="nav_item">02. TEAM</a>
           </div>
         </Col>

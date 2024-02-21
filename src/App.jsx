@@ -8,14 +8,14 @@ import SectionDivider2 from "./component/SectionDivider2";
 
 function App() {
   return (
-    <>
+    <div>
       <HeroSection />
       <SectionDivider />
       <HistorySection />
       <SectionDivider2 />
       <LastSection />
       <Footer />
-    </>
+    </div>
   );
 }
 

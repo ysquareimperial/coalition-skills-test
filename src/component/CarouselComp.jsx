@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import { Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 export default function CarouselComp() {
   const [swiperRef, setSwiperRef] = useState(null);
@@ -16,13 +16,17 @@ export default function CarouselComp() {
       <Swiper
         onSwiper={setSwiperRef}
         slidesPerView={4}
-        centeredSlides={true}
+        // centeredSlides={true}
         spaceBetween={30}
         pagination={{
           type: "fraction",
         }}
+        autoplay={{
+          delay: 1200,
+          disableOnInteraction: false,
+        }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>

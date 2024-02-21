@@ -45,7 +45,16 @@ body {
   font-size: 31px;
   position: absolute;
   top: 110px;
-  left: 385px;
+  left: 375px !important;
+  font-family: "Oswald";
+}
+.climb__ {
+  color: #414f6b;
+  font-weight: 700;
+  font-size: 31px;
+  position: absolute;
+  top: 110px;
+  left: 390px !important;
   font-family: "Oswald";
 }
 .history_text {
@@ -164,4 +173,60 @@ body {
 }
 .carousel-wrapper {
   /* position: relative; */
+}
+
+@media (max-width: 576px) {
+  .nav_ {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabs {
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .tabs a {
+    text-decoration: none;
+    background-color: #3d4d6b9f;
+    padding: 10px;
+    width: 200px !important;
+  }
+  .nav_item_1{
+    margin-top: 20px;
+  }
+  .history_h {
+    color: #414f6b;
+    font-weight: 700;
+    font-size: 31px;
+    position: absolute;
+    top: 110px;
+    left: 160px;
+    font-family: "Oswald";
+  }
+  .section_2_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px !important;
+  }
+  .climb_text {
+    text-align: center;
+  }
+  .history_h {
+    color: #414f6b;
+    font-weight: 700;
+    font-size: 31px;
+    position: absolute;
+    top: 110px;
+    left: 150px !important;
+    font-family: "Oswald";
+  }
+  .climb__ {
+    color: #414f6b;
+    font-weight: 700;
+    font-size: 31px;
+    position: absolute;
+    top: 110px;
+    left: 240px !important;
+    font-family: "Oswald";
+  }
 }

@@ -8,7 +8,7 @@ function SectionDivider() {
       <Col md={2}></Col>
       <Col
         md={8}
-        className="d-flex align-items-center justify-content-between m-3"
+        className="d-flex align-items-center justify-content-between p-3"
       >
         <img src={textLogo} alt="" className="text_logo" />
         <div className="d-flex text-white gap-4">

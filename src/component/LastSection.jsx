@@ -30,7 +30,7 @@ function LastSection() {
 
       <Row className="m-0">
         <Col md={2}></Col>
-        <Col md={8} className=" m-3">
+        <Col md={8} className="">
           {!mountain && (
             <div className="schedule">
               <p className="sch_head m-0">SCHEDULE</p>
